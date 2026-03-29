@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vendor Onboarding — BCI Marketplace</title>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="header"><a href="./"><strong>BCI Marketplace</strong></a></header>
+  <section class="hero">
+    <h1>Join as a vendor or integrator</h1>
+    <p class="small">Pilot program: featured placement + warm lead routing.</p>
+    <form action="https://formsubmit.co/PLEASE_REPLACE_WITH_YOUR_EMAIL@example.com" method="POST">
+      <input type="hidden" name="_subject" value="BCIMarketplace Vendor Onboarding" />
+      <input type="hidden" name="_template" value="table" />
+      <label>Company <input name="company" required /></label>
+      <label>Website <input name="website" required /></label>
+      <label>Region <input name="region" /></label>
+      <label>Contact name <input name="name" /></label>
+      <label>Contact email <input type="email" name="email" required /></label>
+      <label>Offerings <textarea name="offerings" rows="4" placeholder="Devices/services, modalities, target customers"></textarea></label>
+      <label>Pricing info <textarea name="pricing" rows="3" placeholder="Public ranges? Typical deal size"></textarea></label>
+      <label>Differentiators <textarea name="diffs" rows="3" placeholder="Comfort, setup time, channels, SDKs, certifications"></textarea></label>
+      <label>Lead preferences <textarea name="prefs" rows="3" placeholder="Geos, deal size, verticals"></textarea></label>
+      <label>Agreement
+        <select name="agreement">
+          <option>Per‑lead fee</option>
+          <option>Commission on closed‑won</option>
+          <option>Both</option>
+          <option>Open to discuss</option>
+        </select>
+      </label>
+      <button type="submit">Submit</button>
+      <div class="small">Replace the form email after deploy.</div>
+    </form>
+  </section>
+</body>
+</html>

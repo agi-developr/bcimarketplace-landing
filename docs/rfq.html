@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Request Recommendation — BCI Marketplace</title>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="header"><a href="./"><strong>BCI Marketplace</strong></a></header>
+  <section class="hero">
+    <h1>Tell us your use case</h1>
+    <p class="small">We’ll reply within 1–2 business days with a shortlist and intros.</p>
+    <form action="https://formsubmit.co/PLEASE_REPLACE_WITH_YOUR_EMAIL@example.com" method="POST">
+      <input type="hidden" name="_subject" value="BCIMarketplace RFQ" />
+      <input type="hidden" name="_template" value="table" />
+      <label>Full name <input name="name" required /></label>
+      <label>Email <input type="email" name="email" required /></label>
+      <label>Organization <input name="org" /></label>
+      <label>Role <input name="role" /></label>
+      <label>Country <input name="country" /></label>
+      <label>Use case
+        <select name="use_case">
+          <option>Research</option><option>VR/XR</option><option>Education</option>
+          <option>Clinical</option><option>Wellness</option><option>Productivity</option>
+          <option>Other</option>
+        </select>
+      </label>
+      <label>Modality
+        <select name="modality">
+          <option>EEG</option><option>fNIRS</option><option>Both</option><option>Unsure</option>
+        </select>
+      </label>
+      <label>Budget range (USD) <input name="budget" placeholder="k–50k+" /></label>
+      <label>Timeline <input name="timeline" placeholder="e.g., 6–12 weeks" /></label>
+      <label>Requirements
+        <textarea name="requirements" rows="5" placeholder="Channels, dry/wet, comfort, portability, SDKs (LSL/BrainFlow/Unity/Python), compliance, integrations"></textarea>
+      </label>
+      <button type="submit">Submit RFQ</button>
+      <div class="small">Heads up: replace the email in this form action after deploy.</div>
+    </form>
+  </section>
+</body>
+</html>
