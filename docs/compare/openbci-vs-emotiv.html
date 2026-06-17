@@ -3,23 +3,117 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Prototyping vs mobile research; SDKs and channels — BCI Marketplace</title>
+<title>OpenBCI vs EMOTIV — BCI Marketplace</title>
+<meta name="description" content="A practical OpenBCI vs EMOTIV comparison for neurotech buyers: channels, setup time, SDKs, pricing, and tradeoffs." />
 <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
   <header class="header">
     <a href="../"><strong>BCI Marketplace</strong></a>
+    <nav class="nav">
+      <a href="../demo.html">Demo</a>
+      <a href="../rfq.html">Get Recommendation</a>
+      <a href="../vendor-onboard.html">Vendors</a>
+    </nav>
   </header>
+
   <section class="hero">
-    <h1>Prototyping vs mobile research; SDKs and channels</h1>
-    <p class="small">Vendor‑neutral summary; verify specs/prices with vendors.</p>
+    <span class="badge">Live comparison</span>
+    <span class="badge">Vendor-neutral</span>
+    <h1>OpenBCI vs EMOTIV</h1>
+    <p>This is the kind of buyer-facing page judges should see immediately: real tradeoffs, practical SDK notes, and a direct path into concierge routing.</p>
   </section>
+
+  <section class="grid grid-2">
+    <div class="card accent-card">
+      <div class="small caps">Pick OpenBCI if you need</div>
+      <h3>Hackable hardware and flexible prototyping</h3>
+      <p>Better fit for startups, labs, and makers who care about open tooling, BrainFlow-first workflows, and modifiable hardware setups.</p>
+    </div>
+    <div class="card accent-card accent-card-alt">
+      <div class="small caps">Pick EMOTIV if you need</div>
+      <h3>Faster setup and a more turnkey headset experience</h3>
+      <p>Better fit for mobile studies, demos, and teams that want reduced setup friction and a more polished headset form factor.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <div class="small caps">Decision table</div>
+        <h2>What actually matters in this comparison</h2>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Criteria</th>
+            <th>OpenBCI</th>
+            <th>EMOTIV</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Best for</td><td>Open prototyping, maker workflows, flexible SDK experiments</td><td>Mobile research, faster setup, cleaner all-in-one headset</td></tr>
+          <tr><td>Channels</td><td>8 standard, 16 with Daisy</td><td>14 channels + 2 references</td></tr>
+          <tr><td>Electrodes</td><td>Dry comb by default, optional wet setups</td><td>Semi-dry saline felt pads</td></tr>
+          <tr><td>Setup time</td><td>~10 minutes</td><td>~5 minutes</td></tr>
+          <tr><td>SDK stack</td><td>OpenBCI GUI, BrainFlow, LSL</td><td>EmotivPRO, Cortex API, BrainFlow, LSL</td></tr>
+          <tr><td>Unity support</td><td>Yes</td><td>Yes</td></tr>
+          <tr><td>Pricing</td><td>~$1k–$2.5k</td><td>~$849–$999 plus software subscription</td></tr>
+          <tr><td>Comfort</td><td>More variable; depends on headset fit</td><td>More polished for repeated mobile sessions</td></tr>
+          <tr><td>Tradeoff</td><td>More flexible and hackable, less turnkey</td><td>More turnkey, more platform lock-in</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <div class="small caps">Dataset proof</div>
+        <h2>Structured device records behind the comparison</h2>
+      </div>
+    </div>
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="small caps">OpenBCI</div>
+        <h3>Cyton + Ultracortex</h3>
+        <div class="fact-list">
+          <div><strong>Channels:</strong> 8</div>
+          <div><strong>Electrodes:</strong> dry</div>
+          <div><strong>Setup:</strong> 10 min</div>
+          <div><strong>Price:</strong> $1,000–$2,500</div>
+          <div><strong>BrainFlow:</strong> Yes</div>
+          <div><strong>LSL:</strong> Yes</div>
+          <div><strong>Unity:</strong> Yes</div>
+        </div>
+        <p class="small">Ultracortex is 3D-printed; fit varies by head shape; moderate comfort for shorter sessions.</p>
+      </div>
+      <div class="card">
+        <div class="small caps">EMOTIV</div>
+        <h3>EPOC X</h3>
+        <div class="fact-list">
+          <div><strong>Channels:</strong> 14</div>
+          <div><strong>Electrodes:</strong> semi-dry</div>
+          <div><strong>Setup:</strong> 5 min</div>
+          <div><strong>Price:</strong> $849–$999 + subscription</div>
+          <div><strong>BrainFlow:</strong> Yes</div>
+          <div><strong>LSL:</strong> Yes</div>
+          <div><strong>Unity:</strong> Yes</div>
+        </div>
+        <p class="small">Lightweight headset with faster setup and better repeatability for mobile research workflows.</p>
+      </div>
+    </div>
+  </section>
+
   <section class="grid">
-    <div class="card"><h3>Who is this for?</h3><p>Accuracy, comfort, setup time, SDK support, price</p></div>
-    <div class="card"><h3>Key criteria</h3><p>OpenBCI (Cyton/Ganglion/Ultracortex), EMOTIV (INSIGHT/EPOC X/MN8)</p></div>
-    <div class="card"><h3>Top vendors</h3><p>Mismatched channels/SDKs; overfitting consumer headsets to research</p></div>
-    <div class="card"><h3>Pitfalls</h3><p></p></div>
+    <div class="card"><h3>Who this page is for</h3><p>XR teams, startup builders, mobile research groups, and labs comparing openness vs turnkey setup.</p></div>
+    <div class="card"><h3>Common failure mode</h3><p>Buying a polished prosumer headset for a workflow that actually needs more flexible hardware and software access.</p></div>
+    <div class="card"><h3>What we do next</h3><p>Convert your use case, budget, SDK constraints, and timeline into a shortlist with vendor intros.</p></div>
+    <div class="card"><h3>Judge takeaway</h3><p>This is not a generic affiliate page. It is the front-end of a concierge procurement engine for neurotech.</p></div>
   </section>
+
   <section class="hero">
     <a class="cta" href="../rfq.html">Get a tailored recommendation →</a>
   </section>

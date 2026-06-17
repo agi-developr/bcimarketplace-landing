@@ -3,25 +3,51 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>XR teams, simulation, training — BCI Marketplace</title>
+<title>VR / XR BCI — BCI Marketplace</title>
+<meta name="description" content="What XR teams should look for in BCI hardware: latency, comfort inside HMDs, SDK compatibility, and multimodal tradeoffs." />
 <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
   <header class="header">
     <a href="../"><strong>BCI Marketplace</strong></a>
+    <nav class="nav">
+      <a href="../demo.html">Demo</a>
+      <a href="../rfq.html">RFQ</a>
+      <a href="../vendor-onboard.html">Vendors</a>
+    </nav>
   </header>
+
   <section class="hero">
-    <h1>XR teams, simulation, training</h1>
-    <p class="small">Vendor‑neutral summary; verify specs/prices with vendors.</p>
+    <span class="badge">Use case</span>
+    <span class="badge">XR</span>
+    <h1>BCI for VR and XR teams</h1>
+    <p>XR teams need more than signal quality. The real challenge is combining latency, headset comfort, software integration, and repeatable setup inside immersive workflows.</p>
   </section>
+
+  <section class="grid grid-3">
+    <div class="card"><h3>Best for</h3><p>Training simulations, attention measurement, XR neurogaming, immersive UX research, and multimodal R&D.</p></div>
+    <div class="card"><h3>What matters</h3><p>Unity or Unreal fit, HMD comfort, cable management, setup time, and whether your signal pipeline can run in near real time.</p></div>
+    <div class="card"><h3>Common mistake</h3><p>Forgetting that hardware fit inside an HMD can kill the experience before signal quality even matters.</p></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="small caps">Decision criteria</div><h2>What XR teams should optimize for</h2></div></div>
+    <div class="grid grid-2">
+      <div class="card"><h3>Comfort under headset load</h3><p>If the BCI stack makes the HMD unstable or uncomfortable, session length and user acceptance collapse fast.</p></div>
+      <div class="card"><h3>Integration speed</h3><p>Unity support, data access, and event synchronization matter more than raw spec bragging rights.</p></div>
+      <div class="card"><h3>Latency realism</h3><p>Not every BCI use case works in real time. Be honest about what your modality can support in immersive interaction.</p></div>
+      <div class="card"><h3>Multimodal upside</h3><p>Platforms like Galea become interesting when you want more than EEG alone and can support the added complexity.</p></div>
+    </div>
+  </section>
+
   <section class="grid">
-    <div class="card"><h3>Who is this for?</h3><p>Latency, integration with HMDs, comfort, safety</p></div>
-    <div class="card"><h3>Key criteria</h3><p>OpenBCI Galea (Varjo), EMOTIV INSIGHT/XR integrations</p></div>
-    <div class="card"><h3>Top vendors</h3><p>Hardware‑software mismatch; cables and comfort inside HMDs</p></div>
-    <div class="card"><h3>Pitfalls</h3><p></p></div>
+    <div class="card"><h3>Stacks to explore</h3><p>OpenBCI Galea, EMOTIV-based XR prototypes, and custom Unity-driven EEG setups depending on speed vs flexibility.</p></div>
+    <div class="card"><h3>Good fit</h3><p>Teams running pilots, immersive training, or attention-aware environments where even partial signal utility creates product value.</p></div>
+    <div class="card"><h3>Bad fit</h3><p>Use cases that demand perfectly clean, high-density lab-grade acquisition inside fast, physical XR sessions.</p></div>
   </section>
+
   <section class="hero">
-    <a class="cta" href="../rfq.html">Get a tailored recommendation →</a>
+    <a class="cta" href="../rfq.html">Get an XR-ready shortlist →</a>
   </section>
 </body>
 </html>

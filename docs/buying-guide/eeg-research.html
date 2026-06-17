@@ -3,25 +3,51 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Labs, UX research, universities — BCI Marketplace</title>
+<title>EEG for Research — BCI Marketplace</title>
+<meta name="description" content="How research teams should choose EEG systems: channels, cap logistics, software, setup burden, and procurement tradeoffs." />
 <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
   <header class="header">
     <a href="../"><strong>BCI Marketplace</strong></a>
+    <nav class="nav">
+      <a href="../demo.html">Demo</a>
+      <a href="../rfq.html">RFQ</a>
+      <a href="../vendor-onboard.html">Vendors</a>
+    </nav>
   </header>
+
   <section class="hero">
-    <h1>Labs, UX research, universities</h1>
-    <p class="small">Vendor‑neutral summary; verify specs/prices with vendors.</p>
+    <span class="badge">Buying guide</span>
+    <span class="badge">Research</span>
+    <h1>How to choose EEG for research</h1>
+    <p>Labs should not buy on channel count alone. The real decision is cap logistics, artifact tolerance, setup burden, software fit, and whether the system matches your study design.</p>
   </section>
+
+  <section class="grid grid-3">
+    <div class="card"><h3>Best for</h3><p>Universities, cognitive labs, HCI research groups, and teams running repeated participant studies.</p></div>
+    <div class="card"><h3>Typical range</h3><p>32–256 channels, wet or semi-dry caps, with stronger emphasis on data quality and repeatability than convenience.</p></div>
+    <div class="card"><h3>Common mistake</h3><p>Underestimating setup time, cap sizing, gel cleanup, and the operator training needed for clean data.</p></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="small caps">Decision criteria</div><h2>What matters most</h2></div></div>
+    <div class="grid grid-2">
+      <div class="card"><h3>Signal quality and montage fit</h3><p>Match channel count and electrode placement to your actual paradigm. More channels are not always better if setup burden crushes throughput.</p></div>
+      <div class="card"><h3>Software ecosystem</h3><p>Check LSL, BrainVision workflows, export formats, and compatibility with your analysis pipeline before buying.</p></div>
+      <div class="card"><h3>Participant throughput</h3><p>High-quality systems still fail operationally if every session becomes a 45-minute setup bottleneck.</p></div>
+      <div class="card"><h3>Cap comfort and logistics</h3><p>Cap sizing, consumables, cleaning, and replacement parts matter more than many teams expect.</p></div>
+    </div>
+  </section>
+
   <section class="grid">
-    <div class="card"><h3>Who is this for?</h3><p>Channels (32–256), cap comfort, dry/wet, amps, SDKs</p></div>
-    <div class="card"><h3>Key criteria</h3><p>BioSemi, Brain Products, ANT Neuro, g.tec, Cognionics</p></div>
-    <div class="card"><h3>Top vendors</h3><p>Underestimating setup and artifact handling; cap sizing/logistics</p></div>
-    <div class="card"><h3>Pitfalls</h3><p></p></div>
+    <div class="card"><h3>Vendors to evaluate</h3><p>Brain Products, BioSemi, ANT Neuro, g.tec, and Cognionics depending on study constraints and budget.</p></div>
+    <div class="card"><h3>When to buy premium</h3><p>If your publication quality, clinical rigor, or repeated high-density acquisition matters, operator efficiency alone can justify a more expensive stack.</p></div>
+    <div class="card"><h3>When to avoid overbuying</h3><p>For early protocol development, pilot studies, or narrow paradigms, a simpler system can get you to signal faster.</p></div>
   </section>
+
   <section class="hero">
-    <a class="cta" href="../rfq.html">Get a tailored recommendation →</a>
+    <a class="cta" href="../rfq.html">Get a research-specific shortlist →</a>
   </section>
 </body>
 </html>
